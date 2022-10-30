@@ -1,5 +1,5 @@
 const expect = require('./lib/expect')
-const { isArray, isClass, isObject, isType, notNull, notUndefined, notEmpty, hasOwnProperty, hasKeys } = require('./lib/check')
+const { isArray, isClass, isObject, isType, notNull, notUndefined, notEmpty, hasOwnProperty, hasKeys, isOneOf } = require('./lib/check')
 const guessType = require('./lib/guess')
 
 module.exports = {
@@ -14,4 +14,5 @@ module.exports = {
   hasOwnProperty,
   hasKeys,
   guessType,
+  isOneOf,
 }
